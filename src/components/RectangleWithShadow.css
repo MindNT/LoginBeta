@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.rectangle {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.shadow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent shadow */
+    border-radius: 10px;
+    z-index: 0;
+}

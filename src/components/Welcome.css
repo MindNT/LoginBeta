@@ -1,0 +1,14 @@
+/* src/components/Welcome.css */
+.welcome-container {
+    color: white;
+}
+
+.welcome-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.welcome-container p {
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
